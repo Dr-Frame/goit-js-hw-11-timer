@@ -1,0 +1,29 @@
+.timer {
+  width: 460px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.field {
+  min-width: 80px;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  border-radius: 6px;
+}
+.value {
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  color: aliceblue;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 700;
+  opacity: 0.7;
+}
